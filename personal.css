@@ -13,6 +13,8 @@ html, body {
   outline: none;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  word-wrap: break-word;
 }
 
 body {
