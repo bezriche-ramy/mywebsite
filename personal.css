@@ -254,7 +254,6 @@ body::before {
 
 .details-container {
   padding: 1.5rem;
-  
   background: rgb(255, 255, 255);
   border-radius: 2rem;
   border: 0.1rem solid rgb(0, 0, 0);
@@ -559,7 +558,7 @@ article .icon {
 }
 .project-title {
   margin: 1rem 0;
-  font-size: 1.5rem;
+  font-size: 5rem;
   color: #000;
 }
 
@@ -585,5 +584,7 @@ article .icon {
   width: 200px;
   position: center;
   transform: translateX(250px);
+  font-size: 1.5rem;
+
 }
 
