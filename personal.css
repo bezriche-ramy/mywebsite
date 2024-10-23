@@ -590,7 +590,20 @@ article .icon {
   font-size: 1.5rem;
 
 }
-.projectp{
-  
-}
+/* FOOTER */
+.ft {
+  position: relative;
+  padding: 3rem 0;
+  background-color: rgb(77, 10, 149); /* Light background for better contrast */
+  margin-top: 2rem; /* Push it down slightly from the very top */
+  z-index: 10; /* Make sure it's on top of other sections if needed */
+  display: flex;
+  flex-direction: column; /* Ensure text and image are stacked vertically */
+  align-items: center;
+  padding: 2rem 1rem;
+  color: #fff;
+  font-size: 2rem;
 
+  z-index: 2;
+  width: 100%;
+}
