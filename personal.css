@@ -185,9 +185,9 @@ body::before {
   padding: 0.5rem 1rem; /* Adjust padding to fit better */
   width: auto; /* Adjust width to fit content */
   border-radius: 2rem;
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border: rgb(250, 248, 248) 0.1rem solid;
   background: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 246, 246);
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -197,8 +197,8 @@ body::before {
 
 
 .btn-color-1:hover, .btn-color-2:hover {
-  background: rgb(0, 0, 0);
-  color: white;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   
   position: center;
 }
