@@ -51,6 +51,10 @@ body::before {
   align-items: center;
   justify-content: space-between;
   z-index: 1000; /* Ensure the upbar stays on top */
+  display: flex;
+  justify-content: center; /* Center the menu horizontally */
+  align-items: center;      /* Center the items vertically (optional) */
+  height: 60px;             
 }
 
 .logo {
@@ -67,8 +71,7 @@ body::before {
   list-style: none;
   padding: 0;
   gap: 2rem;
-  transform: translateX(430px);
-  z-index: -1; /* Ensure the background is under all elements */
+  z-index: -1;
 }
 
 .menu li {
@@ -586,5 +589,8 @@ article .icon {
   transform: translateX(250px);
   font-size: 1.5rem;
 
+}
+.projectp{
+  
 }
 
