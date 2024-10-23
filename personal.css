@@ -200,15 +200,24 @@ body::before {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   
+  
   position: center;
 }
 .p{
   color: #000000;
-  
   text-align: center;
   width: 200px;
   position: center;
   transform: translateX(250px);
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.p:hover {
+  color: #ffffff;
+  background: #000000;
 }
 
 /* About Details */
@@ -574,6 +583,7 @@ article .icon {
   transition: background 0.3s ease, color 0.3s ease;
   
 }
+
 
 .project-btn:hover {
   background-color: #333;
