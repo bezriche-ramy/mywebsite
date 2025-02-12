@@ -1034,3 +1034,92 @@ footer{
     opacity: 1;
     transform: translateY(0);
 }
+
+@media (max-width: 1200px) {
+    .profile-photo {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+    .col-2 h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline-content {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .timeline-item {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .col-2 h1 {
+        font-size: 2rem;
+    }
+
+    .timeline-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .timeline-item {
+        padding-left: 0;
+    }
+
+    .timeline-dot {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .col-2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .timeline-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .timeline-content h4 {
+        font-size: 1rem;
+    }
+
+    .timeline-date {
+        font-size: 0.8rem;
+    }
+
+    .timeline-content p {
+        font-size: 0.9rem;
+    }
+}
